@@ -24,7 +24,10 @@ body {
 .a-title {
   position: absolute;
   color: transparent;
+  -moz-animation: text;
+  animation: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: conic-gradient(#ed0101, blue);
   pointer-events: none;
